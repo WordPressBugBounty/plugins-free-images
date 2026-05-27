@@ -9,7 +9,7 @@
  *
  * @wordpress-plugin
  * Plugin Name:       Free Assets Library
- * Version:           2.2.1
+ * Version:           2.3.0
  * Plugin URI:        https://surror.com/free-asset-library/
  * Description:       Stunning free images from Openverse, Pixabay for your own blog. Find suitable image as per your need from the millions royalty free images library.
  * Author:            Surror
@@ -34,7 +34,7 @@ final class FAL {
 	 *
 	 * @var string
 	 */
-	public $version = '2.2.1';
+	public $version = '2.3.0';
 
 	/**
 	 * Hold objects.
@@ -108,10 +108,7 @@ final class FAL {
 	private function instantiate() {
 		new \FAL\Page();
 		new \FAL\RestAPI();
-		new \FAL\Track();
 		new \FAL\Media_Popup();
-		new \FAL\Notices();
-
 		new \FAL\Surror\Dashboard();
 	}
 

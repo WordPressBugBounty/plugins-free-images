@@ -2,8 +2,8 @@
 Contributors: Surror
 Tags: openverse, pixabay, stock images, images, photos, royalty images
 Donate link: https://www.paypal.me/mwaghmare7/
-Tested up to: 6.3
-Stable tag: 2.2.1
+Tested up to: 7.0
+Stable tag: 2.3.0
 Requires at least: 4.4
 
 **Free Assets Library** is the #1 WordPress plugin which provides 600 Million FREE Images with 90,000+ downloads 🚀
@@ -44,8 +44,6 @@ You can use the plugin with:
 - Click on the image
 - Change image name, title, caption, description
 - Click on the Download image
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/a7pAzk0EMlQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Read more in [one page quick documentation](https://docs.surror.com/doc/free-assets-library/getting-started/).
 
@@ -108,6 +106,14 @@ For more info check out the following:
 10. Image visible into the fron-end. Easy :)
 
 == Changelog ==
+
+= 2.3.0 =
+* Fix: Openverse images now load again — restored after the previous upstream API host was retired.
+* New: Image searches now route through the central Free Assets Library API at https://images.surror.com. Popular queries serve from a shared edge cache, so repeat searches feel noticeably faster.
+* Improvement: The bundled Pixabay API key has been removed from the plugin. The key now lives only on the central API, eliminating a long-standing shared rate-limit concern across all installs.
+* Improvement: Updated compatibility for WordPress 7.0.
+* Improvement: Removed the deprecated internal usage-tracking module and the legacy admin welcome-notice module. Cleaner admin UI, smaller plugin footprint. Privacy and terms now live at https://surror.com/privacy/ and https://surror.com/terms/.
+* Internal: Plugin response-parsing updated to handle the new unified API envelope. Existing filter UI (license, orientation, color, safe-search, editor's choice) is unchanged.
 
 = 2.2.1 =
 * Improvement: Updated compatibility for WordPress 6.3
