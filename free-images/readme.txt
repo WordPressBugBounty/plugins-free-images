@@ -1,10 +1,12 @@
 === Free Assets Library - Openverse/Pixabay 600+ Million Images  ===
 Contributors: Surror
-Tags: openverse, pixabay, stock images, images, photos, royalty images
+Tags: openverse, pixabay, stock images, royalty-free, media-library
 Donate link: https://www.paypal.me/mwaghmare7/
 Tested up to: 7.0
 Stable tag: 2.3.0
 Requires at least: 4.4
+License: GPLv3
+License URI: https://www.gnu.org/licenses/gpl-3.0.txt
 
 **Free Assets Library** is the #1 WordPress plugin which provides 600 Million FREE Images with 90,000+ downloads 🚀
 
